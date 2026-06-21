@@ -9,36 +9,10 @@ export const DRAWINGS: Drawing[] = [
     time: '5 min',
     image: '/images/C-Washer.jpg',
     videoUrl: 'https://www.youtube.com/embed/PC2jCcPw_jE?si=sRvard80wTca8BGD', // C-Washer tutorial
-    description: 'A fundamental mechanical support bracket used in industrial assemblies. Focuses on Sketcher and Pad features.',
+    description: 'A simple C-Washer modeling exercise designed for beginners in CATIA V5. This project helps you practice Sketcher, constraints, Pad, and Pocket features while creating a common mechanical component used in engineering assemblies.',
     tools: ['Sketcher', 'Pad', 'Mirror', 'Hole'],
     downloadUrl: '/images/C-Washer.jpg',
     catPartUrl: '/part/C-Washer.CATPart'
-  },
-  {
-    id: 'stepped-shaft',
-    name: 'Stepped Transmission Shaft',
-    category: 'Part Design',
-    difficulty: 'Intermediate',
-    time: '35 min',
-    image: 'https://images.unsplash.com/photo-1590959651373-a3db0f38a961?auto=format&fit=crop&q=80&w=800',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    description: 'A precise shaft with multiple diameters for bearing fitment. Key focus on Shaft (Revolve) and Groove features.',
-    tools: ['Shaft (Revolve)', 'Groove', 'Chamfer', 'Keyway'],
-    downloadUrl: '#',
-    catPartUrl: '#'
-  },
-  {
-    id: 'spur-gear',
-    name: 'Involute Spur Gear',
-    category: 'Part Design',
-    difficulty: 'Advanced',
-    time: '60 min',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=800',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    description: 'Complex gear geometry modeling using mathematical formulas for the involute curve.',
-    tools: ['Formula', 'Law', 'Circular Pattern', 'Pocket'],
-    downloadUrl: '#',
-    catPartUrl: '#'
   },
   {
     id: 'flange-coupling',
@@ -53,19 +27,6 @@ export const DRAWINGS: Drawing[] = [
     downloadUrl: '#',
     catPartUrl: '#',
     isComingSoon: true
-  },
-  {
-    id: 'connecting-rod',
-    name: 'Engine Connecting Rod',
-    category: 'Part Design',
-    difficulty: 'Advanced',
-    time: '90 min',
-    image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&q=80&w=800',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    description: 'High-performance mechanical component with complex ribbing and ergonomic transitions.',
-    tools: ['Multi-sections Solid', 'Rib', 'Slot', 'Boolean Ops'],
-    downloadUrl: '#',
-    catPartUrl: '#'
   },
   
   {
