@@ -646,7 +646,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="hidden bg-slate-100 border-t border-slate-200 py-12 mt-20">
+      <footer className="bg-slate-100 border-t border-slate-200 py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="sm:col-span-2 lg:col-span-2">
@@ -657,11 +657,7 @@ export default function App() {
               <p className="text-slate-600 max-w-sm mb-8 text-sm leading-relaxed">
                 The world's premier technical drawing library for mechanical engineering students and professionals focusing on CATIA V5/V6.
               </p>
-              <div className="flex flex-wrap gap-3">
-                 {['TikTok', 'YouTube', 'Instagram', 'LinkedIn'].map(social => (
-                   <a key={social} href="#" className="px-3 py-2 border border-slate-200 rounded bg-white text-slate-600 hover:text-blue-600 hover:border-blue-400 transition-all text-[10px] font-bold uppercase tracking-wider">{social}</a>
-                 ))}
-              </div>
+          
             </div>
             <div>
               <h4 className="text-slate-800 font-bold mb-6 uppercase tracking-widest text-xs">Quick Links</h4>
@@ -682,7 +678,7 @@ export default function App() {
           </div>
           <div className="mt-12 pt-8 border-t border-slate-200 flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
             <p className="text-xs text-slate-400">&copy; 2026 CATIADB Engineering Library. All rights reserved.</p>
-            <p className="text-[10px] text-slate-500 font-mono italic">Professional Technical Reference v4.12.0</p>
+            
           </div>
         </div>
       </footer>
