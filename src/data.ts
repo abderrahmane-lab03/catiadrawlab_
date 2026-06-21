@@ -11,8 +11,8 @@ export const DRAWINGS: Drawing[] = [
     videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder
     description: 'A fundamental mechanical support bracket used in industrial assemblies. Focuses on Sketcher and Pad features.',
     tools: ['Sketcher', 'Pad', 'Mirror', 'Hole'],
-    downloadUrl: '#',
-    catPartUrl: '#'
+    downloadUrl: '/images/C-Washer.jpg',
+    catPartUrl: '/part/C-Washer.CATPart'
   },
   {
     id: 'stepped-shaft',
