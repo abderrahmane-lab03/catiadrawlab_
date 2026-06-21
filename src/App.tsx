@@ -603,7 +603,7 @@ export default function App() {
                           className="w-full tech-button-secondary scale-100 py-3 text-base no-underline flex items-center justify-center gap-3"
                         >
                           <FileText className="w-5 h-5" />
-                          Download Drawing (PDF)
+                          Download Drawing 
                         </a>
                       </div>
 
