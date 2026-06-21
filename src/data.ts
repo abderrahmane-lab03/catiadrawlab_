@@ -51,7 +51,7 @@ export const DRAWINGS: Drawing[] = [
     description: 'A standard coupling interface for connecting two shafts. Heavy use of Circular Pattern tool.',
     tools: ['Pad', 'Hole', 'Circular Pattern', 'Mirror'],
     downloadUrl: '#',
-    catPartUrl: '#'
+    catPartUrl: '#',
     isComingSoon: true
   },
   {
