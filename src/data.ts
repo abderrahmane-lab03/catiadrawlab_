@@ -8,7 +8,7 @@ export const DRAWINGS: Drawing[] = [
     difficulty: 'Beginner',
     time: '5 min',
     image: '/images/C-Washer.jpg',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder
+    videoUrl: 'https://www.youtube.com/embed/PC2jCcPw_jE?si=sRvard80wTca8BGD', // C-Washer tutorial
     description: 'A fundamental mechanical support bracket used in industrial assemblies. Focuses on Sketcher and Pad features.',
     tools: ['Sketcher', 'Pad', 'Mirror', 'Hole'],
     downloadUrl: '/images/C-Washer.jpg',
