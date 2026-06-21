@@ -646,7 +646,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-slate-100 border-t border-slate-200 py-12 mt-20">
+      <footer className="hidden bg-slate-100 border-t border-slate-200 py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="sm:col-span-2 lg:col-span-2">
